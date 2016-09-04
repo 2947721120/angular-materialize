@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh_cn">
 <head>
@@ -7,23 +6,22 @@
     <title>AngularJS指令实现CSS框架</title>
     <link rel="stylesheet" href="https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <link rel="stylesheet" href="https://cdnjs.c2cbc.com/ajax/libs/prism/0.0.1/prism.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//2947721120.github.io/angular-materialize/css/style.css">
     <link href="https://font.c2cmalls.com/icon?family=Material+Icons" rel="stylesheet">
-
     <script type="text/javascript" src="https://cdn.c2cbc.com/jquery/2.2.3/jquery.min.js"></script>
     <script type="text/javascript" src="https://ajax.c2cmalls.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.c2cbc.com/ajax/libs/prism/0.0.1/prism.min.js"></script>
 
     <script type="text/javascript" src="https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 
-    <script type="text/javascript" src="src/angular-materialize.js"></script>
+    <script type="text/javascript" src="//2947721120.github.io/angular-materialize/src/angular-materialize.js"></script>
 
-    <!-- Only for the clockpicker -->
-    <script type="text/javascript" src="js/materialize.clockpicker.js"></script>
-    <link rel="stylesheet" href="css/materialize.clockpicker.css">
+    <!--只为颜色选择器 -->
+    <script type="text/javascript" src="http://2947721120.github.io/angular-materialize/js/materialize.clockpicker.js"></script>
+    <link rel="stylesheet" href="http://2947721120.github.io/angular-materialize/css/materialize.clockpicker.css">
 
     <!-- App -->
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="http://2947721120.github.io/angular-materialize/js/app.js"></script>
 </head>
 <body ng-app="materializeApp" ng-controller="BodyController">
 <header>
@@ -37,7 +35,7 @@
 
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
-                <li class="bold"><a class="collapsible-header waves-effect waves-teal active">形式</a>
+                <li class="bold"><a class="collapsible-header waves-effect waves-teal active">表单元素</a>
                     <div class="collapsible-body">
                         <ul>
                             <li><a href="#input-field">输入场</a></li>
@@ -50,7 +48,6 @@
                 </li>
             </ul>
         </li>
-
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
                 <li class="bold"><a class="collapsible-header waves-effect waves-teal active">JavaScript</a>
@@ -63,8 +60,8 @@
                             <li><a href="#dropdown">落下</a></li>
                             <li><a href="#modals">礼貌</a></li>
                             <li><a href="#parallax">视差</a></li>
-                            <li><a href="#scrollfire">ScrollFire</a></li>
-                            <li><a href="#sidenav">SideNav</a></li>
+                            <li><a href="#scrollfire">消防滚动</a></li>
+                            <li><a href="#sidenav">侧导航</a></li>
                             <li><a href="#slider">滑块</a></li>
                             <li><a href="#media">媒体</a></li>
                             <li><a href="#tabs">标签</a></li>
@@ -73,7 +70,6 @@
                 </li>
             </ul>
         </li>
-
         <li class="no-padding">
             <ul class="collapsible collapsible-accordion">
                 <li class="bold"><a class="collapsible-header waves-effect waves-teal active">组件</a>
@@ -98,9 +94,7 @@
             </div>
         </div>
     </div>
-
-
-    <div class="container">
+ <div class="container">
         <div class="row" id="about">
             <h2 class="header">关于角物质化</h2>
             <p>如果你想使用这个插件是对您有用<a href="http://materializecss.com/">兑现UI框架</a>具有角。</p>
@@ -118,13 +112,13 @@
                 为了得到一个小例子，启动和运行，复制到下面的index.html和app.js：</p>
             <pre><code class="language-markup" ng-non-bindable>&lt;html&gt;
 &lt;head&gt;
-    &lt;title&gt;Minimal example&lt;/title&gt;
+    &lt;title&gt;最小的例子&lt;/title&gt;
 
     &lt;!-- Materialize CSS --&gt;
     &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/css/materialize.min.css&quot;&gt;
 
-    &lt;!-- JavaScript for: jQuery, angular, materialize, and angular-materialize. All of which are needed. --&gt;
-    &lt;script type=&quot;text/javascript&quot; src=&quot;https://code.jquery.com/jquery-2.2.3.min.js&quot;&gt;&lt;/script&gt;
+    &lt;!--JavaScript进行：jQuery的，棱角分明，兑现和角实现。所有这一切都需要. --&gt;
+    &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdn.c2cmalls.com/jquery/2.2.3/jquery.min.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.c2cmalls.com/ajax/libs/angularjs/1.5.5/angular.min.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.c2cbc.com/ajax/libs/materialize/0.97.6/js/materialize.min.js&quot;&gt;&lt;/script&gt;
     &lt;script type=&quot;text/javascript&quot; src=&quot;https://cdnjs.c2cbc.com/ajax/libs/angular-materialize/0.1.8/angular-materialize.min.js&quot;&gt;&lt;/script&gt;
@@ -144,7 +138,7 @@
                 &lt;/div&gt;
             &lt;/div&gt;
             &lt;div class=&quot;section col s8&quot;&gt;
-                &lt;h5&gt;You selected: &lt;b&gt;{{select.value}}&lt;/b&gt;&lt;/h5&gt;
+                &lt;h5&gt;你所选择的: &lt;b&gt;{{select.value}}&lt;/b&gt;&lt;/h5&gt;
             &lt;/div&gt;
         &lt;/div&gt;
     &lt;/div&gt;
@@ -156,7 +150,7 @@
     .controller('BodyController', [&quot;$scope&quot;, function ($scope) {
         $scope.select = {
             value: &quot;Option1&quot;,
-            choices: [&quot;Option1&quot;, &quot;I'm an option&quot;, &quot;This is materialize&quot;, &quot;No, this is Patrick.&quot;]
+            choices: [&quot;Option1&quot;, &quot;我是一个选择&quot;, &quot;这是实现&quot;, &quot;不，这是帕特里克.&quot;]
         };
     }]);</code></pre>
         </div>
@@ -166,7 +160,7 @@
             <p>物化使用类。输入场管理动画标签和输入字段。但是，当角动态创建元素不能正常工作</p>
             <p>而不是添加类输入字段，使用输入字段指令。这样，它仍然有效时，角动态创建它。</p>
             <p>只是在实现，如果添加的长度属性，字符计数器将出现（在下面的长度被设定为150）。 </p>
-            <p>在 <code class="language-markup" data-language="markup">input</code> 或 <code class="language-markup" data-language="markup">textarea</code>标签必须与输入字段标签元素的直接子。 </p>
+            <p>在 <code class="language-markup" data-language="markup">input</code> 或 <code class="language-markup" data-language="markup">textarea</code>(富文本)标签必须与输入字段标签元素的直接子。 </p>
         </div>
         <div class="row" ng-init="showInputLabel = true;dummyInputs.inputFieldInput = 'This is input'; dummyInputs.textAreaInput = 'Textareas \ncan\ncontain\nmultiple\nlines';">
             <div class="col s2">
@@ -187,7 +181,7 @@
             <div class="col s3" ng-if="showInputLabel">
                 <div input-field>
                     <textarea ng-model="dummyInputs.textAreaInput" class="materialize-textarea"></textarea>
-                    <label>同步的textarea</label>
+                    <label>同步的富文本</label>
                 </div>
             </div>
         </div>
@@ -195,11 +189,11 @@
 <pre><code class="language-markup" ng-non-bindable>
 &lt;div input-field&gt;
     &lt;input type="text" ng-model="dummyInputs.inputFieldInput" length="150"&gt;
-    &lt;label&gt;Input label&lt;/label&gt;
+    &lt;label&gt;输入标签&lt;/label&gt;
 &lt;/div&gt;
 &lt;div input-field&gt;
     &lt;textarea ng-model="dummyInputs.textAreaInput" class="materialize-textarea"&gt;&lt;/textarea&gt;
-    &lt;label&gt;Textarea&lt;/label&gt;
+    &lt;label&gt;富文本&lt;/label&gt;
 &lt;/div&gt;</code></pre>
         </div>
         <div class="row">
@@ -207,7 +201,7 @@
 <pre><code class="language-markup" ng-non-bindable>
 &lt;input-field&gt;
     &lt;input type="text" ng-model="dummyInputs.inputFieldInput"&gt;
-    &lt;label&gt;Input label&lt;/label&gt;
+    &lt;label&gt;输入标签&lt;/label&gt;
 &lt;/input-field&gt;
     &lt;input-field&gt;
     &lt;textarea ng-model="dummyInputs.textAreaInput" class="materialize-textarea"&gt;&lt;/textarea&gt;
@@ -251,7 +245,7 @@
         </div>
         <div class="row">
             <p>在HTML代码</p>
-<pre><code class="language-markup" ng-non-bindable>&lt;label for="inputCreated"&gt;Input date&lt;/label&gt;
+<pre><code class="language-markup" ng-non-bindable>&lt;label for="inputCreated"&gt;输入日期&lt;/label&gt;
 &lt;input input-date
     type="text"
     name="created"
@@ -277,7 +271,7 @@
     on-close="onClose()"
     on-set="onSet()"
     on-stop="onStop()" /&gt;</code></pre>
-            <p>And the JavaScript in the controller</p>
+            <p>和JavaScript控制器</p>
             <pre><code class="language-javascript">var currentTime = new Date();
 $scope.currentTime = currentTime;
 $scope.month = ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'];
@@ -315,9 +309,9 @@ $scope.onStop = function () {
 
         <div class="row" id="input-clock">
             <h2 class="header">输入时钟</h2>
-            <p>这是围绕着做了一个包装<a href="https://github.com/chingyawhao/materialize-clockpicker">由chingyawhao取得物质化，clockpicker</a></p>
-            <p>捆绑的JavaScript只包括包装JavaScript和这个工作，你需要包括来自JavaScript和CSS <a href="https://github.com/chingyawhao/materialize-clockpicker">物质化，clockpicker</a></p>
-            <p>此包装的选项相同的原始物质化，clockpicker的选项。 </p>
+            <p>这是围绕着做了一个包装<a href="https://github.com/chingyawhao/materialize-clockpicker">由chingyawhao取得物质化，时钟选择器</a></p>
+            <p>捆绑的JavaScript只包括包装JavaScript和这个工作，你需要包括来自JavaScript和CSS <a href="https://github.com/chingyawhao/materialize-clockpicker">物质化，时钟选择器</a></p>
+            <p>此包装的选项相同的原始物质化，时钟选择器的选项。 </p>
             <p>下面是一个小例子，其中该选项<code class=" language-markup" data-language="markup">twelvehour</code>12小时| 已被设置为假 </p>
         </div>
         <div class="row">
@@ -410,11 +404,11 @@ $scope.onStop = function () {
           <h2 class="header">范围 -  noUiSlider</h2>
           <p>您可以使用HTML5元素的范围，而不需要使用指令或额外的JavaScript。如果你想使用noUiSlider jQuery插件，附带materializecss，你需要包括<a href="https://cdnjs.com/libraries/noUiSlider">noUiSlider的JS和CSS文件</a>，并使用<code class=" language-markup" data-language="markup">nouislider</code>指令。<br>
 
-              you'll need to include <a href="https://cdnjs.com/libraries/noUiSlider">noUiSlider's JS and CSS file</a> and use the <code class="language-markup" data-language="markup">nouislider</code> directive. <br />
+              you'll need to include <a href="https://cdnjs.com/libraries/noUiSlider">无UI滑块JS和CSS文件</a> 并使用 <code class="language-markup" data-language="markup">nouislider</code>指令. <br />
 <pre><code class="language-markup" ng-non-bindable>
 &lt;div nouislider ng-model="value" min="5" max="300"&gt;&lt;/div&gt;
 </code></pre>
-        <p>See <a href="http://refreshless.com/nouislider/slider-options/">noUiSlider's docs</a> for how to use it. Supported config options are: ngModel (required), min, max, step, connect, and tooltips.
+        <p>See <a href="http://refreshless.com/nouislider/slider-options/">无UI滑块文档</a> 对于如何使用它。支持的配置选项有：ngModel（必需），最小值，最大值，步骤，连接和工具提示.
           </ul>
         </div>
 
@@ -423,7 +417,7 @@ $scope.onStop = function () {
             <p>下面的可折叠使用填充NG重复，只是为了表明它是可能的。你也可以手动将在内容。</p>
             <p>在下面的的弹出类添加，这让“谷歌的收件箱”的效果。只是删除的弹出类来获得一个正常的手风琴。</p>
             <p>因为这仅仅是为物化可折叠的包装，<a href="http://materializecss.com/collapsible.html">其所有的定制</a>可以使用。</p>
-            <p>如果您添加属性<code class="  language-markup" data-language="markup">表</code>，那么可折叠将重新初始化，只要东西在可折叠中的内容发生变化。<br>
+            <p>如果您添加属性<code class="language-markup" data-language="markup">表</code>，那么可折叠将重新初始化，只要东西在可折叠中的内容发生变化。<br>
                 这包括如果list元素的数量变化。<br>
                 但要注意，虽然执行的作品，它是在计算很重，所以小心行事。</p>
             <a class="btn waves-effect waves-light" ng-init="showCollapsible = true" ng-click="showCollapsible = !showCollapsible">显示/隐藏可折叠下方</a>
@@ -447,15 +441,15 @@ $scope.onStop = function () {
             <p>在控制器的JavaScript</p>
 <pre><code class="language-javascript">$scope.collapsibleElements = [{
         icon: 'mdi-image-filter-drama',
-        title: 'First',
+        title: '第一',
         content: 'Lorem ipsum dolor sit amet.'
     },{
         icon: 'mdi-maps-place',
-        title: 'Second',
+        title: '第二',
         content: 'Lorem ipsum dolor sit amet.'
     },{
         icon: 'mdi-social-whatshot',
-        title: 'Third',
+        title: '第三',
         content: 'Lorem ipsum dolor sit amet.'
     }
 ];</code></pre>
@@ -470,7 +464,7 @@ $scope.onStop = function () {
         </div>
         <div class="row" ng-controller="ToastController">
             <div class="col s4" input-field>
-                <input id="message" type="text" ng-model="dummyInputs.message" ng-init="dummyInputs.message = 'I\'m a message'">
+                <input id="message" type="text" ng-model="dummyInputs.message" ng-init="dummyInputs.message = '我的消息'">
                 <label for="message">信息</label>
             </div>
             <div class="col s2" input-field>
@@ -478,65 +472,65 @@ $scope.onStop = function () {
                 <label for="toastDuration">显示时间</label>
             </div>
             <div class="input-field col s4">
-                <a class="waves-effect waves-light btn" message="{{dummyInputs.message}}" duration="{{dummyInputs.duration}}" callback="callback('Your toast was dismissed')" toast='click'>Toast!</a>
+                <a class="waves-effect waves-light btn" message="{{dummyInputs.message}}" duration="{{dummyInputs.duration}}" callback="callback('你的烤面包被触发了')" toast='click'>干杯!</a>
             </div>
         </div>
         <div class="row">
 <pre><code class="language-markup" ng-non-bindable>&lt;div class="row"&gt;
     &lt;div class="col s4" input-field&gt;
-        &lt;input id="message" type="text" ng-model="dummyInputs.message" ng-init="dummyInputs.message = 'I\'m a message'"&gt;
+        &lt;input id="message" type="text" ng-model="dummyInputs.message" ng-init="dummyInputs.message = '我的消息"&gt;
         &lt;label for="message"&gt;Message&lt;/label&gt;
     &lt;/div&gt;
     &lt;div class="col s2" input-field&gt;
         &lt;input id="toastDuration" type="text" ng-model="dummyInputs.duration" ng-init="dummyInputs.duration = 1000"&gt;
-        &lt;label for="toastDuration"&gt;Toast duration&lt;/label&gt;
+        &lt;label for="toastDuration"&gt;烤面包的时间&lt;/label&gt;
     &lt;/div&gt;
     &lt;div class="input-field col s4"&gt;
-        &lt;a class="waves-effect waves-light btn" message="{{dummyInputs.message}}" duration="{{dummyInputs.duration}}" toast='click'&gt;Toast!&lt;/a&gt;
+        &lt;a class="waves-effect waves-light btn" message="{{dummyInputs.message}}" duration="{{dummyInputs.duration}}" toast='click'&gt;干杯!&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
         </div>
         <div class="row" id="tooltip">
-            <h2 class="header">Tooltip</h2>
+            <h2 class="header">工具提示(Tooltip)</h2>
             <p>在下面的tooltipped属性确保jQuery插件运行.<br />
                 您可以设置属性的标签，匹配在materializecss版本的选项名称。
             </p>
             <div class="col s4" ng-init="showTooltip = true">
-                <a class="btn waves-effect waves-light" ng-click="showTooltip = !showTooltip" style="margin-bottom: 10px;">Toggle Buttons</a>
+                <a class="btn waves-effect waves-light" ng-click="showTooltip = !showTooltip" style="margin-bottom: 10px;">切换按钮</a>
             </div>
             <div class="col s8" ng-if="showTooltip">
                 <!--数据位置可以是：底部，顶部，左边或右边-->
                 <!--数据延迟控制工具提示显示延迟时间（毫秒）-->
-                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="bottom" data-delay="50" data-tooltip="I am tooltip"> Bottom</a>
-                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="top" data-delay="150" data-tooltip="I am tooltip"> Top</a>
-                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="left" data-delay="250" data-tooltip="I am tooltip"> Left</a>
-                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="right" data-delay="550" data-tooltip="I am tooltip"> Right</a>
+                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="bottom" data-delay="50" data-tooltip="我是tooltip"> 底部(data-position="bottom")</a>
+                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="top" data-delay="150" data-tooltip="我是 tooltip">顶部(data-position="top")</a>
+                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="left" data-delay="250" data-tooltip="我是 tooltip"> 左侧(data-position="left")</a>
+                <a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="right" data-delay="550" data-tooltip="我是 tooltip"> 右侧(data-position="right")</a>
             </div>
         </div>
         <div class="row">
 <pre><code class="language-markup" ng-non-bindable>&lt;div class="col s8" ng-if="showTooltip"&gt;
     &lt;!-- 数据位置可以是：底部，顶部，左边或右边 --&gt;
     &lt;!--数据延迟控制工具提示显示延迟时间（毫秒）--&gt;
-    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="bottom" data-delay="50" data-tooltip="I am tooltip"&gt; Bottom&lt;/a&gt;
-    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="top" data-delay="150" data-tooltip="I am tooltip"&gt; Top&lt;/a&gt;
-    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="left" data-delay="250" data-tooltip="I am tooltip"&gt; Left&lt;/a&gt;
-    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="right" data-delay="550" data-tooltip="I am tooltip"&gt; Right&lt;/a&gt;
+    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="bottom" data-delay="50" data-tooltip="我是 tooltip"&gt; Bottom&lt;/a&gt;
+    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="top" data-delay="150" data-tooltip="我是 tooltip"&gt; Top&lt;/a&gt;
+    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="left" data-delay="250" data-tooltip="我是 tooltip"&gt; Left&lt;/a&gt;
+    &lt;a tooltipped class="btn col s4 offset-s4 l2 offset-l1" data-position="right" data-delay="550" data-tooltip="我是 tooltip"&gt; Right&lt;/a&gt;
 &lt;/div&gt;</code></pre>
         </div>
         <div class="row" id="pushpin">
             <h2 class="header">图钉</h2>
-            <p>The <code class=" language-markup" data-language="markup">pushpin</code> attribute allows you to pin a particular element to the top of the page.</p>
-            <p>You can use the <code class=" language-markup" data-language="markup">pushpin-top</code> attribute to define distance in pixels from the top of the page where the element becomes fixed. The <code class=" language-markup" data-language="markup">pushpin-offset</code> attribute can be used to offset the distance from the top. The <code class=" language-markup" data-language="markup">pushpin-bottom</code> attribute can be used to set the distance in pixels from the top of the page where the elements stops being fixed.</p>
+            <p>该 <code class=" language-markup" data-language="markup">pushpin</code> 属性允许你对一个特定元素固定在页面的顶部.</p>
+            <p>您可以使用 <code class=" language-markup" data-language="markup">pushpin-top</code> 归因于从其中元件被固定在网页的顶部限定像素距离。在<code class=" language-markup" data-language="markup">pushpin-offset</code>属性可以用来抵消顶部的距离。在 <code class=" language-markup" data-language="markup">pushpin-bottom</code>属性可用于设置在载有元件停止固定页面的顶部的像素的距离。</p>
         </div>
         <div class="row">
 <pre><code class="language-markup" ng-non-bindable>
 &lt;div class=&quot;sidebar&quot; pushpin pushpin-top=&quot;0&quot; pushpin-offset=&quot;0&quot; pushpin-bottom=&quot;Infinity&quot;&gt;
   &lt;ul id=&quot;sidebarMenu&quot; class=&quot;menu&quot;&gt;
-    &lt;li&gt;Item 1&lt;/li&gt;
-    &lt;li&gt;Item 2&lt;/li&gt;
-    &lt;li&gt;Item 3&lt;/li&gt;
-    &lt;li&gt;Item 4&lt;/li&gt;
-    &lt;li&gt;Item 5&lt;/li&gt;
+    &lt;li&gt;项目 1&lt;/li&gt;
+    &lt;li&gt;项目 2&lt;/li&gt;
+    &lt;li&gt;项目 3&lt;/li&gt;
+    &lt;li&gt;项目 4&lt;/li&gt;
+    &lt;li&gt;项目 5&lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;</code></pre>
         </div>
@@ -545,7 +539,7 @@ $scope.onStop = function () {
         <div class="row" id="dropdown">
             <h2 class="header">下拉</h2>
             <p>下拉属性在确保jQuery插件运行.</p>
-            <p>您可以在标签上设置属性，在该选项中匹配选项的名 <a href="http://materializecss.com/dropdown.html#!">materializeCSS's version</a>.</p>
+            <p>您可以在标签上设置属性，在该选项中匹配选项的名 <a href="http://materializecss.com/dropdown.html#!">物化的CS版本</a>.</p>
         </div>
         <div class="row">
             <div class="section col s4">
@@ -556,11 +550,11 @@ $scope.onStop = function () {
 
                 <!-- 下拉式结构 -->
                 <ul id='demoDropdown' class='dropdown-content'>
-                    <li><a href="javascript:void(0);">Link 1</a></li>
-                    <li><a href="javascript:void(0);">Link 2</a></li>
-                    <li><a href="javascript:void(0);">Link 3</a></li>
-                    <li><a href="javascript:void(0);">Link 4</a></li>
-                    <li><a href="javascript:void(0);">Link 5</a></li>
+                    <li><a href="javascript:void(0);">链接 1</a></li>
+                    <li><a href="javascript:void(0);">链接 2</a></li>
+                    <li><a href="javascript:void(0);">链接 3</a></li>
+                    <li><a href="javascript:void(0);">链接 4</a></li>
+                    <li><a href="javascript:void(0);">链接 5</a></li>
                 </ul>
             </div>
         </div>
@@ -573,24 +567,24 @@ $scope.onStop = function () {
 
 &lt;!-- 下拉式结构 --&gt;
 &lt;ul id='demoDropdown' class='dropdown-content'&gt;
-    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;Link 2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;Link 3&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;Link 4&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;Link 5&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;链接 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;链接 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;链接 3&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;链接 4&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="javascript:void(0);"&gt;链接 5&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
         </div>
 
 
-        <!-- TODO: Make it clear what the different options do, especially 'open' -->
+        <!-- TODO：说清楚什么不同的选择呢，尤其是 'open' -->
         <div class="row" id="modals" ng-init="dummyInputs.modalInput = 'Modal header'" ng-controller="ModalController">
-            <h2 class="header">Modals</h2>
+            <h2 class="header">模态</h2>
             <p>你需要一个模式触发，像下面。触发应该有模态指令，并href属性必须指向模态结构的ID。<br/>
-            模态谢灵运的结构应 <a href="http://materializecss.com/modals.html">就像在物质化</a>. <br>
+            模态谢灵运的结构应 <a href="http://materializecss.com/modals.html">就像在物质化</a>. <br>
             在下面的例子中，您可以通过输入字段更改模式的头. </p>
-            <!-- Modal Trigger -->
+            <!--触发模式 -->
             <div class="col">
-                <a class='btn' href='#demoModal' modal ready="readyCallback" complete="completeCallback" open="openModal">Show Modal</a>
+                <a class='btn' href='#demoModal' modal ready="readyCallback" complete="completeCallback" open="openModal">显示模态</a>
             </div>
             <div input-field  class="col s4">
                 <input type="text" ng-model="dummyInputs.modalInput">
@@ -603,70 +597,70 @@ $scope.onStop = function () {
             <div id="demoModal" class="modal">
                 <div class="modal-content">
                     <h4>{{dummyInputs.modalInput}}</h4>
-                    <p>A bunch of text</p>
+                    <p>一堆文字</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">同意</a>
                 </div>
             </div>
         </div>
         <div class="row">
-                <pre><code class="language-markup" ng-non-bindable>&lt;!-- Modal Trigger --&gt;
+                <pre><code class="language-markup" ng-non-bindable>&lt;!--触发模式 --&gt;
 &lt;div class="col"&gt;
-    &lt;a class='btn' href='#demoModal' modal&gt;Show Modal&lt;/a&gt;
+    &lt;a class='btn' href='#demoModal' modal&gt;显示 模态&lt;/a&gt;
 &lt;/div&gt;
-&lt;!-- Modal Structure --&gt;
+&lt;!--模态结构 --&gt;
 &lt;div id="demoModal" class="modal"&gt;
     &lt;div class="modal-content"&gt;
         &lt;h4&gt;Modal header&lt;/h4&gt;
-        &lt;p&gt;A bunch of text&lt;/p&gt;
+        &lt;p&gt;一堆文本&lt;/p&gt;
     &lt;/div&gt;
     &lt;div class="modal-footer"&gt;
-        &lt;a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"&gt;Agree&lt;/a&gt;
+        &lt;a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat"&gt;同意&lt;/a&gt;
     &lt;/div&gt;
 &lt;/div&gt;</code></pre>
         </div>
 
         <div class="row">
-          <h4>Tabs</h4>
-          <p>如果你要使用<a href="#tabs">tabs</a> 在一个模式中，您将需要添加<code class="language-markup">enable-tabs</code> 属性到您的模态触发器.</p>
+          <h4>标签页</h4>
+          <p>如果你要使用<a href="#tabs">标签</a> 在一个模式中，您将需要添加<code class="language-markup">enable-tabs</code> 属性到您的模态触发器.</p>
         </div>
         <div class="row">
-          <pre><code class="language-markup" ng-non-bindable>&lt;!-- Modal Trigger --&gt;
+          <pre><code class="language-markup" ng-non-bindable>&lt;!-- 触发模式 --&gt;
 &lt;div class="col"&gt;
-    &lt;a class='btn' href='#demoModal' enable-tabs="true" modal&gt;Show Modal&lt;/a&gt;
+    &lt;a class='btn' href='#demoModal' enable-tabs="true" modal&gt;显示 模态&lt;/a&gt;
 &lt;/div&gt;</code></pre>
         </div>
 
 
 
         <div class="row" id="parallax" ng-init="showParallax = true">
-            <h2 class="header">Parallax</h2>
-            <p>添加的视差属性可以确保 <a href="http://materializecss.com/parallax.html">jQuery插件实现</a> is run.</p>
-            <p>It works just like the code below the image shows, and fills the entire width of the container it is put in. </p>
-            <a class="btn waves-effect waves-light" ng-click="showParallax = !showParallax">Show/hide the below parallax</a>
+            <h2 class="header">视差</h2>
+            <p>添加的视差属性可以确保 <a href="http://materializecss.com/parallax.html">jQuery插件实现</a> 在运行.</p>
+            <p>它的工作原理就像下图显示的代码，并填充它被放在容器的整个宽度. </p>
+            <a class="btn waves-effect waves-light" ng-click="showParallax = !showParallax">显示/隐藏下面视差</a>
         </div>
     </div>
     <div class="parallax-container" ng-if="showParallax" style="margin: 20px 0;">
-        <div parallax><img src="images/parallax1.jpg"></div>
+        <div parallax><img src="http://2947721120.github.io/angular-materialize/images/parallax1.jpg"></div>
     </div>
     <div class="container">
 
         <div class="row">
 <pre><code class="language-markup" ng-non-bindable>&lt;div class="parallax-container"&gt;
-    &lt;div parallax&gt;&lt;img src="images/parallax1.jpg"&gt;&lt;/div&gt;
+    &lt;div parallax&gt;&lt;img src="http://2947721120.github.io/angular-materialize/images/parallax1.jpg"&gt;&lt;/div&gt;
 &lt;/div&gt;</code></pre>
         </div>
 
 
 
         <div class="row" id="scrollfire">
-            <h2 class="header" scroll-fire="toast('Past scoll-fire', 2000)" offset="500">ScrollFire</h2>
-            <p>It's previously stated that this library is mostly wrappers for Materialize code. <br/>This directive is an exception, since the Materialize code for ScrollFire is crap (as of version 0.97.5). </p>
-            <p>ScrollFire is very simple, you set an attribute <code class="language-markup">scoll-fire</code> on some attribute, with a callback. And this callback fires when the user scrolls past that element. <br />
-            One can further set an <code class="language-markup">offset</code> attribute, to make the callback fire after the user has scrolled a certain amount of pixels beyond the element.</p>
-            <p>If you look at the source of this directive, it is used to alert a message after the user has scrolled 500 pixels past the "ScrollFire" header. <br/>
-            And the code below shows the source-code for that header. That example requires an <code class="language-javascript">toast</code> function to be defined on the scope. </p>
+            <h2 class="header" scroll-fire="toast('Past scoll-fire', 2000)" offset="500">消防滚动</h2>
+            <p>它曾表示，这个库主要是为兑现代码包装. <br/>这个指令是个例外，因为对于ScrollFire的兑现代码是胡扯（为0.97.5版本）. </p>
+            <p>滚动火很简单，您可以设置一个属性 <code class="language-markup">scoll-fire</code> 一些属性，具有回调。而这个回调火灾当用户滚动过去的那个元素. <br />
+           我们可以进一步设置 <code class="language-markup">offset</code>属性，使回调大火用户滚动一定量的像素超越元素之后.</p>
+            <p>如果你看一下这个指令的来源，它是用来提醒邮件的用户滚动500像素过去的"ScrollFire"头之后。 <br/>
+            而下面的代码显示了头上的源代码。这个例子需要 <code class="language-javascript">toast</code> 要在范围定义函数. </p>
         </div>
         <div class="row">
 <pre><code class="language-markup" ng-non-bindable>&lt;h2 class=&quot;header&quot; scroll-fire=&quot;toast('Past scoll-fire', 2000)&quot; offset=&quot;500&quot;&gt;ScrollFire&lt;/h2&gt;</code></pre>
@@ -674,60 +668,60 @@ $scope.onStop = function () {
 
 
         <div class="row" id="sidenav">
-            <h2 class="header">Sidenav</h2>
-            <p>Make sure to have a side-menu with id corresponding to the argument <code class="language-markup">data-activates</code>. </p>
-            <p>If you copy this page, there is another side-nav link in the top of the page, which initializes first and therefore sets the options. </p>
-            <p>If you add the class <code class="language-markup">button-collapse</code> the button will only show when the side-menu is hidden.  <br/>
-            This is not done on the below button, for demonstration purposes, although it is added in the code example.</p>
+            <h2 class="header">侧边导航</h2>
+            <p>确保有与对应于自变量ID的侧面菜单 <code class="language-markup">data-activates</code>. </p>
+            <p>如果您复制此页面上有页面，初始化第一顶另一边-Nav链接，因此设置的选项. </p>
+            <p>如果您添加类 <code class="language-markup">button-collapse</code>当侧面菜单隐藏按钮，将只显示n.  <br/>
+           这是不是在下面的按钮完成，用于演示目的，但它在代码示例添加.</p>
         </div>
         <div class="row">
             <a href="#" data-activates="nav-mobile" class="top-nav btn waves-effect waves-light" data-sidenav="left" data-closeonclick="false">
-                Show side-nav
+                显示侧边导航
             </a>
         </div>
         <div class="row">
 <pre><code class="language-markup" ng-non-bindable>
 &lt;a href="#" class="button-collapse" data-activates="nav-mobile" data-sidenav="left" data-menuwidth="500" data-closeonclick="false"&gt;
-    Show side-nav
+   显示侧导航
 &lt;/a&gt;</code></pre>
         </div>
 
         <div class="row" id="slider">
-            <h2 class="header">Slider</h2>
-            <p>An extremely simple directive, that just enables the slider. Just add the attribute <code class=" language-markup" data-language="markup">slider</code>, and the slider will be initialized. </p>
-            <p>You can optionally set one of more of the attributes <code class=" language-markup" data-language="markup">height</code>, <code class=" language-markup" data-language="markup">transition</code>,
-                <code class=" language-markup" data-language="markup">interval</code> or <code class=" language-markup" data-language="markup">indicators</code>, and the option will be passed to the slider. <br />
-                Like so: <code class=" language-markup" data-language="markup">&lt;div slider height='500' transition='400'&gt;&lt;/div&gt;</code></p>
+            <h2 class="header">滑块</h2>
+            <p>一个非常简单的指令，这只是使滑块。只需添加属性<code class=" language-markup" data-language="markup">slider</code>,和滑块将被初始化. </p>
+            <p>您可以选择设置更多的属性之一<code class=" language-markup" data-language="markup">height</code>, <code class=" language-markup" data-language="markup">transition</code>,
+                <code class=" language-markup" data-language="markup">interval</code> 或 <code class=" language-markup" data-language="markup">indicators</code>, 和选项将被传递到滑块. <br />
+                像这样: <code class=" language-markup" data-language="markup">&lt;div slider height='500' transition='400'&gt;&lt;/div&gt;</code></p>
         </div>
         <div class="row">
             <div slider>
                 <ul class="slides">
                     <li>
-                        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                        <img src="http://lorempixel.com/580/250/nature/1"> <!-- 随机图像 -->
                         <div class="caption center-align">
-                            <h3>This is our big Tagline!</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            <h3>这是我们的大标语!</h3>
+                            <h5 class="caption right-align">这是我们的小标语.</h5>
                         </div>
                     </li>
                     <li>
-                        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                        <img src="http://lorempixel.com/580/250/nature/2"> <!-- 随机图像 -->
                         <div class="caption left-align">
-                            <h3>Left Aligned Caption</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            <h3>左对齐标题</h3>
+                            <h5 class="light grey-text text-lighten-3">这是我们的小标语.</h5>
                         </div>
                     </li>
                     <li>
-                        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                        <img src="http://lorempixel.com/580/250/nature/3"> <!--随机图像 -->
                         <div class="caption right-align">
-                            <h3>Right Aligned Caption</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            <h3>右对齐标题</h3>
+                            <h5 class="light grey-text text-lighten-3"这是我们的小标语.</h5>
                         </div>
                     </li>
                     <li>
-                        <img src="http://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                        <img src="http://lorempixel.com/580/250/nature/4"> <!-- 随机图像 -->
                         <div class="caption center-align">
-                            <h3>This is our big Tagline!</h3>
-                            <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                            <h3>这是我们的大标语!</h3>
+                            <h5 class="light grey-text text-lighten-3">这是我们的小标语.</h5>
                         </div>
                     </li>
                 </ul>
@@ -739,29 +733,29 @@ $scope.onStop = function () {
         &lt;li&gt;
             &lt;img src="http://lorempixel.com/580/250/nature/1"&gt; &lt;!-- random image --&gt;
             &lt;div class="caption center-align"&gt;
-                &lt;h3&gt;This is our big Tagline!&lt;/h3&gt;
-                &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+                &lt;h3&gt;这是我们的大标语!&lt;/h3&gt;
+                &lt;h5 class="light grey-text text-lighten-3"&gt; 这是我们的小标语.&lt;/h5&gt;
             &lt;/div&gt;
         &lt;/li&gt;
         &lt;li&gt;
             &lt;img src="http://lorempixel.com/580/250/nature/2"&gt; &lt;!-- random image --&gt;
             &lt;div class="caption left-align"&gt;
-                &lt;h3&gt;Left Aligned Caption&lt;/h3&gt;
-                &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+                &lt;h3&gt;左对齐标题&lt;/h3&gt;
+                &lt;h5 class="light grey-text text-lighten-3"&gt; 这是我们的小标语.&lt;/h5&gt;
             &lt;/div&gt;
         &lt;/li&gt;
         &lt;li&gt;
                 &lt;img src="http://lorempixel.com/580/250/nature/3"&gt; &lt;!-- random image --&gt;
                 &lt;div class="caption right-align"&gt;
-            &lt;h3&gt;Right Aligned Caption&lt;/h3&gt;
-            &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+            &lt;h3&gt;右对齐标题&lt;/h3&gt;
+            &lt;h5 class="light grey-text text-lighten-3"&gt; 这是我们的小标语.&lt;/h5&gt;
             &lt;/div&gt;
         &lt;/li&gt;
         &lt;li&gt;
             &lt;img src="http://lorempixel.com/580/250/nature/4"&gt; &lt;!-- random image --&gt;
             &lt;div class="caption center-align"&gt;
-                &lt;h3&gt;This is our big Tagline!&lt;/h3&gt;
-                &lt;h5 class="light grey-text text-lighten-3"&gt;Here's our small slogan.&lt;/h5&gt;
+                &lt;h3&gt;这是我们的大标语!&lt;/h3&gt;
+                &lt;h5 class="light grey-text text-lighten-3"&gt; 这是我们的小标语.&lt;/h5&gt;
             &lt;/div&gt;
         &lt;/li&gt;
     &lt;/ul&gt;
@@ -769,75 +763,75 @@ $scope.onStop = function () {
         </div>
 
         <div class="row" id="media">
-            <h2 class="header">Media</h2>
-            <p class="caption">Materialbox is intialized automatically. However, if you add images dynamically, you will have to add this initialization code.</p>
-            <div class="material-placeholder"><img materialboxed class="materialboxed responsive-img " width="650" src="images/sample-1.jpg"></div>
+            <h2 class="header">媒体</h2>
+            <p class="caption">料箱自动初始化。但是，如果动态地添加图片，你将不得不添加此初始化代码.</p>
+            <div class="material-placeholder"><img materialboxed class="materialboxed responsive-img " width="650" src="//2947721120.github.io/angular-materialize/images/sample-1.jpg"></div>
         </div>
 
         <div class="row">
 
-            <p>Creating the above image with the effect is as simple as adding a  class to the image tag.</p>
+            <p>创建具有效果上面的图片，只需添加一个类图片标记一样简单.</p>
             <pre><code class="language-markup" ng-non-bindable>
-&lt;img materialboxed class="materialboxed responsive-img" width="650" src="images/sample-1.jpg"&gt;
+&lt;img materialboxed class="materialboxed responsive-img" width="650" src="//2947721120.github.io/angular-materialize/images/sample-1.jpg"&gt;
             </code></pre>
         </div>
         <div class="row">
-            <h4>Captions</h4>
-                <p>It is very easy to add a short caption to your photo. Just add the caption as a <code class=" language-markup">data-caption</code> attribute.</p>
-                <div class="material-placeholder"><img materialboxed class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="images/nature_portrait_by_pw_fotografie-d63tx0n.jpg"></div>
+            <h4>字幕</h4>
+                <p>这是很容易在短期字幕添加到您的照片。只需添加标题为 <code class=" language-markup">data-caption</code> 属性.</p>
+                <div class="material-placeholder"><img materialboxed class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="//2947721120.github.io/angular-materialize/images/nature_portrait_by_pw_fotografie-d63tx0n.jpg"></div>
         </div>
         <div class="row">
 
-            <p>Creating the above image with the effect is as simple as adding a  class to the image tag.</p>
+            <p>创建具有效果上面的图片，只需添加一个类图片标记一样简单.</p>
             <pre><code class="language-markup" ng-non-bindable>
-&lt;img materialboxed class="materialboxed" data-caption="A picture of some deer and tons of trees" width="250" src="iamges/nature_portrait_by_pw_fotografie-d63tx0n.jpg"&gt;
+&lt;img materialboxed class="materialboxed" data-caption="树木有的鹿吨的图片" width="250" src="//2947721120.github.io/angular-materialize/iamges/nature_portrait_by_pw_fotografie-d63tx0n.jpg"&gt;
             </code></pre>
 
         <div class="row" id="tabs" ng-init="showTabs = true">
-            <h2 class="header">Tabs</h2>
-            <p>This is a very simple directive, that just calls the jQuery plugin when the element is initialized.</p>
-            <p>For the styling to work, you still need to have the class <code class="language-markup">tabs</code> on the <code class="language-markup">ul</code> tag</p>
-            <p>Because of the simple implementation, don't expect ng-repeat ng-model or similar to work inside the ul of the tabs (should work inside the content though).</p>
-            <a class="btn waves-effect waves-light" ng-click="showTabs = !showTabs">Show/hide the below tabs</a>
+            <h2 class="header">标签</h2>
+          <p>这是一个非常简单的指令，只是调用当元素被初始化的jQuery插件。</P>
+            <p>有关造型的工作，你仍然需要对类<code class="language-markup">tabs</code>  <code class="language-markup">ul</code> 标记</p>
+            <p>由于简单实现的，不要指望NG-重复NG-模型或类似标签的UL内工作（应该里面的内容的工作，虽然）。</P>
+            <a class="btn waves-effect waves-light" ng-click="showTabs=!showTabs">显示/隐藏选项卡下方</A>
         </div>
         <div class="row" ng-if="showTabs">
             <div class="col s12">
                 <ul tabs>
-                    <li class="tab col s3"><a href="#test1">Test 1</a></li>
-                    <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
-                    <li class="tab col s3"><a href="#test3">Test 3</a></li>
-                    <li class="tab col s3"><a href="#test4">Test 4</a></li>
+                    <li class="tab col s3"><a href="#test1">测试 1</a></li>
+                    <li class="tab col s3"><a class="active" href="#test2">测试 2</a></li>
+                    <li class="tab col s3"><a href="#test3">测试 3</a></li>
+                    <li class="tab col s3"><a href="#test4">测试 4</a></li>
                 </ul>
             </div>
-            <div id="test1" class="col s12">Test 1</div>
-            <div id="test2" class="col s12">Test 2</div>
-            <div id="test3" class="col s12">Test 3</div>
-            <div id="test4" class="col s12">Test 4</div>
+            <div id="test1" class="col s12">测试 1</div>
+            <div id="test2" class="col s12">测试 2</div>
+            <div id="test3" class="col s12">测试 3</div>
+            <div id="test4" class="col s12">测试 4</div>
         </div>
         <div class="row">
 <pre><code class="language-markup" ng-non-bindable>
 &lt;div class="row" ng-if="showTabs"&gt;
     &lt;div class="col s12"&gt;
         &lt;ul tabs&gt;
-            &lt;li class="tab col s3"&gt;&lt;a href="#test1"&gt;Test 1&lt;/a&gt;&lt;/li&gt;
-            &lt;li class="tab col s3"&gt;&lt;a class="active" href="#test2"&gt;Test 2&lt;/a&gt;&lt;/li&gt;
-            &lt;li class="tab col s3"&gt;&lt;a href="#test3"&gt;Test 3&lt;/a&gt;&lt;/li&gt;
-            &lt;li class="tab col s3"&gt;&lt;a href="#test4"&gt;Test 4&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="tab col s3"&gt;&lt;a href="#test1"&gt;测试 1&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="tab col s3"&gt;&lt;a class="active" href="#test2"&gt;测试 2&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="tab col s3"&gt;&lt;a href="#test3"&gt;测试 3&lt;/a&gt;&lt;/li&gt;
+            &lt;li class="tab col s3"&gt;&lt;a href="#test4"&gt;测试 4&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
     &lt;/div&gt;
-    &lt;div id="test1" class="col s12"&gt;Test 1&lt;/div&gt;
-    &lt;div id="test2" class="col s12"&gt;Test 2&lt;/div&gt;
-    &lt;div id="test3" class="col s12"&gt;Test 3&lt;/div&gt;
-    &lt;div id="test4" class="col s12"&gt;Test 4&lt;/div&gt;
+    &lt;div id="test1" class="col s12"&gt;测试 1&lt;/div&gt;
+    &lt;div id="test2" class="col s12"&gt;测试 2&lt;/div&gt;
+    &lt;div id="test3" class="col s12"&gt;测试 3&lt;/div&gt;
+    &lt;div id="test4" class="col s12"&gt;测试 4&lt;/div&gt;
 &lt;/div&gt;</code></pre>
         </div>
 
         <div class="row" id="pagination">
-            <h2 class="header">Pagination</h2>
-            <p>This is only the pagination buttons, it doesn't do anything to change the page. That you'll have to do in the callback</p>
-            <p>In the below, changePage is a function defined on the controller. </p>
-            <p>Pr. default the prev/next buttons are icons from <a href="http://google.github.io/material-design-icons/">Material design icons</a>, which needs to be included, like this: <code class="language-markup">&lt;link href=&quot;https://font.c2cmalls.com/icon?family=Material+Icons&quot; rel=&quot;stylesheet&quot;&gt;</code> <br/>
-            It is also possible to set the option <code class="language-markup">use-simple-prev-next</code> to false, in which case simple ">" chars will be used.
+            <h2 class="header">分页</h2>
+          <p>这是唯一的分页按钮，它没有做任何事情来改变页面。那你就必须在回调做</P>
+            <p>在下面，改变页面是在控制器上定义的函数。 </P>
+            <p>镨。默认情况下，上一个/下一个按钮，从图标被列入<a href="http://google.github.io/material-design-icons/">材质设计图标</a>的，这需要，像这样： <code class="language-markup">&lt;link href=&quot;https://font.c2cmalls.com/icon?family=Material+Icons&quot; rel=&quot;stylesheet&quot;&gt;</code> <br/>
+            还可以设置选项 <code class="language-markup">use-simple-prev-next</code>的 false，在这种情况下，简单的“>”字符将被使用。
             </p>
         </div>
         <div class="row" ng-controller="PaginationController">
